@@ -70,7 +70,7 @@ $(function () {
         //登录成功后，将token值存储到localstorge中
         localStorage.setItem('token', res.token)
         // 跳转到后台主页
-        location.href = '/index.html'
+        location.href = './index.html'
       }
     })
   })
